@@ -1,0 +1,14 @@
+.tabla{ position: relative; float: left; width:100%;}
+.pull-right{ float: right;}
+.base{position: relative; float: left;}
+.text-right{ text-align: right;}
+
+.table.b-table > thead > tr > .table-b-table-default, .table.b-table > tbody > tr > .table-b-table-default, .table.b-table > tfoot > tr > .table-b-table-default {
+    color: #212529;
+    background-color: #e9ecef !important;
+}
+
+.b-table-sticky-header {
+    overflow-y: auto;
+    max-height: 600px !important;
+}
